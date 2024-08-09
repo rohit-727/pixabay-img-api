@@ -6,9 +6,10 @@ See it in action at http://pixapi.rrex.cc/<query\>
 # Endpoint
 ## `/:query`
 This is the only endpoint for the API, the domain followed by the query for the image. 
-Returns a 200 with the image if successful, 
-          404: Image not found if a relevant image isn't available on Pixabay 
-     or a 500 status in case of any other server-side errors.
+Returns a:
+- `200` with the image if successful, 
+- `404`: Image not found if a relevant image isn't available on Pixabay
+- or a `500` status in case of any other server-side errors.
 
 # Demo and Screenshots
 
